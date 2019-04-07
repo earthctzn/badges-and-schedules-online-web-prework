@@ -18,5 +18,6 @@ def assign_rooms(attendees)
  attendees {|name|
   greeting2 = "Hello, #{name}! You'll be assigned to room #{room_num}!"
   attendees.each do greeting2
+  assign_rooms
   
   

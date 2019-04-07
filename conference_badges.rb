@@ -29,8 +29,6 @@ def printer(attendees)
       badges_and_room_assignments.each {|name|
         puts name
     badges_and_room_assignments = assign_rooms(attendees)}
-
     badges_and_room_assignments.each {|name|
       puts name}
-
 end

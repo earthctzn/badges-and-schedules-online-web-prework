@@ -31,6 +31,6 @@ def printer(attendees)
     badges_and_room_assignments = assign_rooms(attendees)}
 
     badges_and_room_assignments.each {|name|
-      puts guest_info}
+      puts name}
 
 end

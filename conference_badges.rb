@@ -19,5 +19,6 @@ def assign_rooms(attendees)
   greeting2 = "Hello, #{name}! You'll be assigned to room #{room_num}!"
   assign_rooms[index] = greeting2
   index += 1
-  room_num += 1  
+  room_num += 1 
+  return assign_rooms
   
